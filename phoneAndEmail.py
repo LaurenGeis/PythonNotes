@@ -33,7 +33,7 @@ for groups in phoneRegex.findall(text):
         phoneNum += ' x' + groups[8]
     matches.append(phoneNum)
 for groups in emailRegex.findall(text):
-    matches.append(groups[0])       # append groups 0 for email (group 0 matches the entire regex
+    matches.append(groups[0])       # append groups 0 for email (group 0 matches the entire regex)
 
 
 #TODO: Copy Results to the clipboard
