@@ -23,5 +23,3 @@ def backup_to_zip(folder):
 
     #TODO: Walk the entire folder tree and compress the files in each folder
 
-
-
