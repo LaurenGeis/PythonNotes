@@ -19,3 +19,5 @@ logging.debug('End of program')
 
 # i variable starts at zero, so this will show the wrong values for total
 # changing the for statement to for i in range(1, n + 1) will start process at 1
+# use logging.disable() a logging level, and it will disable notifications for that level
+# ex: logging.disable(logging.CRITICAL)
